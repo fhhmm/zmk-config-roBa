@@ -94,10 +94,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &trans                  &kp LS(UP_ARROW)    &trans                   &trans                                                 &trans         &kp UP_ARROW    &kp UP_ARROW     &trans  &trans
-&kp HOME        &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &kp END       &trans                &trans             &kp HOME       &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans              &kp LG(LS(RIGHT_ARROW))  &trans        &trans                &trans             &kp END        &kp DOWN_ARROW  &kp DOWN_ARROW   &trans  &trans
-&trans          &trans                  &trans              &kp LEFT_SHIFT           &kp LEFT_ALT  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &kp RIGHT_ALT                                           &trans
+&kp ESCAPE      &trans                  &kp LS(UP_ARROW)    &trans                   &trans                                                 &trans          &kp UP_ARROW    &kp UP_ARROW     &trans  &trans
+&kp HOME        &kp LS(LEFT_ARROW)      &kp LS(DOWN_ARROW)  &kp LS(RIGHT_ARROW)      &kp END       &trans                &trans             &kp LEFT_ARROW  &kp LEFT_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&kp LEFT_SHIFT  &kp LG(LS(LEFT_ARROW))  &trans              &kp LG(LS(RIGHT_ARROW))  &trans        &trans                &trans             &trans          &kp DOWN_ARROW  &kp DOWN_ARROW   &trans  &trans
+&trans          &trans                  &trans              &kp LEFT_SHIFT           &kp LEFT_ALT  &kp LEFT_COMMAND      &kp RIGHT_COMMAND  &kp RIGHT_ALT                                            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
