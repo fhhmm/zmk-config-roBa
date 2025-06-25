@@ -22,18 +22,13 @@
             key-positions = <12 13>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <23 24>;
         };
 
-        double_quotation {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <20 21>;
-        };
-
-        eq {
-            bindings = <&kp EQUAL>;
+        redo {
+            bindings = <&kp LG(LS(Z))>;
             key-positions = <24 25>;
         };
     };
