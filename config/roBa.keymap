@@ -19,7 +19,7 @@
 
         shift_tab {
             bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+            key-positions = <10 11>;
         };
 
         undo {
@@ -29,7 +29,7 @@
 
         redo {
             bindings = <&kp LG(LS(Z))>;
-            key-positions = <24 25>;
+            key-positions = <23 22>;
         };
     };
 
