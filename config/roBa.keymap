@@ -64,7 +64,7 @@
 &lt 4 ESCAPE        &kp LEFT_ALT  &kp LEFT_COMMAND  &kp LANG2  &lt 2 SPACE  &kp LANG1               &kp BACKSPACE  &lt 1 ENTER                             &lt 6 GRAVE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_DOWN C_AC_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         FUNCTION {
